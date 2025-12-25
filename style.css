@@ -107,27 +107,17 @@ footer{padding:30px;text-align:center;opacity:0.6;}
 }
 @media (max-width: 768px) {
   .navbar {
+    position: relative;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
+    gap: 15px;
+    padding: 15px 5%;
   }
 
-  .logo {
-    order: 1;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .logo-img {
+    height: 45px;
   }
 
-  .nav-links {
-    order: 2;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .register-btn {
-    order: 3;
+  .navbar a {
+    font-size: 16px;
   }
 }
