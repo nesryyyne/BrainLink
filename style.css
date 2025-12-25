@@ -93,3 +93,41 @@ footer{padding:30px;text-align:center;opacity:0.6;}
   width:auto;
   transition:0.3s;
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .register-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .logo {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-links {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .register-btn {
+    order: 3;
+  }
+}
